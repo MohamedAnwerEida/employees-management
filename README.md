@@ -22,3 +22,8 @@ Employee return registration => Can do it once a day, and should be out
 View employee report => day, date, attendance time,exit time, out time, return time, total attendance hours
 
 Export employee report to xlsx => file name should be same as the employee name
+
+#create database
+create database and connect it via .env file
+#run migrate 
+php artisan migrate

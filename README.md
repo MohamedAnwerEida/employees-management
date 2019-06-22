@@ -23,7 +23,7 @@ View employee report => day, date, attendance time,exit time, out time, return t
 
 Export employee report to xlsx => file name should be same as the employee name
 
-#create database
+# create database
 create database and connect it via .env file
-#run migrate 
+# run migrate 
 php artisan migrate

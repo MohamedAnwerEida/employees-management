@@ -12,7 +12,7 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
-
+    
     'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
@@ -49,9 +49,9 @@ return [
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
+            'engine' => 'InnoDB ROW_FORMAT=DYNAMIC',
             'prefix' => '',
             'strict' => true,
-            'engine' => null,
         ],
 
         'pgsql' => [
